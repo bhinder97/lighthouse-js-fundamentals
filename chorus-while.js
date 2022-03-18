@@ -15,7 +15,7 @@ let repeat = 0;
 
 while (repeat < 10) {
   if (repeat === 5) {
-    console.log("*change key*");
+    console.log("*change key*"); // before chorus prints for a 6th time, this will print because repeat will be equal to 5 at the 6th iteration
   }
   console.log(chorus);
   repeat++;
