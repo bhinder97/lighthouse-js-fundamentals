@@ -34,5 +34,22 @@ if (temperature < 0) {
 } else {
   console.log("Short sleeves are fine.");
 }
-console.log("Now you're ready to go outside!");
+console.log("Now you're ready to go outside!"); // will always run
 */
+// logical operators :
+// && - logical AND
+// || - logical OR
+// "!"- logical NOT
+
+// exercise 4
+/*
+const isCitizen = true;
+const age = 26;
+
+if (isCitizen && age > 18) { // && makes it so both comparisons must be true
+  console.log("You are eligible to vote.")
+}
+*/
+
+//exercise 5
+
